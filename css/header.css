@@ -1,0 +1,122 @@
+.up {
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: x-small;
+    padding: 10px 20px;
+    margin: 5px 13px 0 0;
+}
+
+.in{
+    float: right;
+    background-color: blue;
+    color: white;
+    font-size: x-small;
+    padding: 10px 20px;
+    margin: 5px 13px 0 0;
+}
+.logo {
+font-family: 'Satisfy', cursive;
+font-size: 50px;
+color: #112fb4;
+margin: auto;
+text-decoration: none;
+margin: 10px 10px 0px 10px;    
+}
+
+.EIC{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    margin: 0 0 0px 10px;
+    }
+
+.notMember {
+    text-align: center;
+    margin: 20px;
+    margin-top: 25px;
+    font-size: small;
+    font-weight: bold;
+    }
+
+#deletePostModal .modal-dialog {
+    top: 200px;
+}
+
+#deletePostModal .modal-content {
+    border-radius: 0;
+}
+
+#deletePostModal .modal-body {
+    color: black;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+#deletePostModal .modal-footer {
+    border: none;
+    justify-content: space-between;
+}
+
+#deletePostModal button.btn {
+    margin: 0;
+    padding: 0.5rem 3rem;
+}
+
+
+
+.modal-header {
+    display: inline;
+    border-bottom: 2px solid rgba(167, 167, 167, 0.945);
+    padding-top: 0;
+    margin: auto 15px;
+}
+
+h4#signInModalLabel, h4#signUpModalLabel, h4#createPostModalLabel {
+    align-content: center;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: medium;
+    color: black;
+}
+
+
+.close {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+
+.form-control {
+    background-color: #F1F1F1;
+    border-radius: 0;
+    border: none;
+    font-size: x-small;
+    font-weight: 600;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background-color: #ddd;
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+.form-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+    font-weight: 500;
+    padding: 0;
+    color: black;
+}
+
+.btn-success, .btn-danger {
+    border-radius: 0;
+    font-size: x-small;
+    margin-top: 30px;
+}
+

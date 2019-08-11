@@ -1,0 +1,35 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+.close {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.postButtons {
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.postBtn {
+   background-color: rgba(214, 197, 79);
+   font-weight: bold;
+   font-size: small;
+   padding: 10px 10px 10px 10px;
+   margin: 4px;
+}
+
+
+

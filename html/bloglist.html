@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+	  
+    <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+
+    
+    <link href='..\css\header.css' rel='stylesheet' type='text/css'>
+
+
+    
+    <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>
+
+    
+    <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div id="main-container-div">
+        <div class="header">
+                                
+            
+                
+            
+            <button class="up" data-toggle="modal" data-target="#signUpModal" id="sign-up-button">Sign Up</button>
+            <button class="in" data-toggle="modal" data-target="#signInModal" id="sign-in-button">Sign In</button>
+
+            <h1 class="logo" id="logo">ScriBBler</h1>
+            <div class="EIC">Explore. Imagine. Create</div>
+
+        </div>
+    </div>
+    
+
+    
+    <div class="modal fade" id="signInModal" aria-labelledby="signInModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <button class="close" data-dismiss="modal">
+              <span class="close">&times;</span>
+          </button>
+         
+          <div class="modal-header">
+            <h4 class="modal-title" id="signInModalLabel">Welcome Back!</h4>
+          </div>
+          
+          <div class="modal-body">
+            
+            <form>
+              <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control form-control-lg" id="username" placeholder="Enter Username" required>
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control form-control-lg" id="password" placeholder="Enter Password" required>
+              </div>
+              <button type="submit" class="btn btn-success btn-lg btn-block">Sign In</button>
+              
+              <div class="notMember">Not a member? <a href="#signUpModal" data-toggle="modal" data-dismiss="modal">Sign In</a></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   
+   <div class="modal fade" id="signUpModal" aria-labelledby="signUpModalLabel">
+      <div class="modal-dialog">
+        <div class="modal-content">
+            
+            <button class="close" data-dismiss="modal">
+              <span class="close">&times;</span>
+          </button>
+          
+          <div class="modal-header">
+            <h4 class="modal-title" id="signUpModalLabel">Get Started</h4>
+          </div>
+          
+          <div class="modal-body">
+            
+            <form>
+              <div class="form-group">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control form-control-lg" id="fullName" placeholder="Enter Full Name" required>
+              </div>
+              <div class="form-group">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control form-control-lg" id="username" placeholder="Enter Username" required>
+              </div>
+              <div class="form-group">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control form-control-lg" id="password" placeholder="Enter Password" required>
+              </div>
+              <div class="form-group">
+                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                <input type="password" class="form-control form-control-lg" id="confirmPassword" placeholder="Confirm Password" required>
+              </div>
+              <button type="submit" class="btn btn-success btn-lg btn-block">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <div class="allPostsContainer">
+        <div class="post">
+            <div class="post-left">
+                <p class="post-username">Jimi</p>
+            </div>
+            <div class="post-content">
+<div class="paragraph">
+                    
+                    <div class="trashBtn" data-toggle="modal" data-target="#deletePostModal">
+                      <i class="fa fa-trash"></i>
+                    </div>
+
+                    <p class="post-title">Hello there ! This is Post 1. </p>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+
+                </div>
+                
+
+<div class="dot-dot">
+  <span class="unhide">
+    <i class="fa fa-ellipsis-h"></i>
+  </span>
+</div>
+
+</div>
+        </div>
+
+        <div class="post">
+            <div class="post-left">
+                <p class="post-username">Jimi</p>
+            </div>
+            <div class="post-content">
+                <div class="paragraph">
+                    
+                    <div class="trashBtn" data-toggle="modal" data-target="#deletePostModal"><i class="fa fa-trash"></i></div>
+
+                    <p class="post-title">Hello there ! This is Post 2. </p>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+
+                </div>
+                
+               <div class="dot-dot">
+  <span class="unhide">
+    <i class="fa fa-ellipsis-h"></i>
+  </span>
+</div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-left">
+                <p class="post-username">Jimi</p>
+            </div>
+            <div class="post-content">
+                <div class="paragraph">
+                   
+                    <div class="trashBtn" data-toggle="modal" data-target="#deletePostModal"><i class="fa fa-trash"></i></div>
+
+                    <p class="post-title">Hello there ! This is Post 3. </p>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+
+                </div>
+               
+               <div class="dot-dot">
+  <span class="unhide">
+    <i class="fa fa-ellipsis-h"></i>
+  </span>
+</div>
+            </div>
+        </div>
+
+        <div class="post">
+            <div class="post-left">
+                <p class="post-username">Jimi</p>
+            </div>
+            <div class="post-content">
+                <div class="paragraph">
+                    
+                    <div class="trashBtn" data-toggle="modal" data-target="#deletePostModal"><i class="fa fa-trash"></i></div>
+
+                    <p class="post-title">Hello there ! This is Post 4. </p>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+
+                </div>
+                
+                <div class="dot-dot">
+  <span class="unhide">
+    <i class="fa fa-ellipsis-h"></i>
+  </span>
+</div>
+            </div>
+        </div>
+
+         <div class="post">
+            <div class="post-left">
+                <p class="post-username">Jimi</p>
+            </div>
+            <div class="post-content">
+                <div class="paragraph">
+                    
+                    <div class="trashBtn" data-toggle="modal" data-target="#deletePostModal"><i class="fa fa-trash"></i></div>
+
+                    <p class="post-title">Hello there ! This is Post 5. </p>
+                    <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had ever ventured before. His boundless drive, technical ability and creative application of such effects as distortion forever transformed the sound of rock and roll. While creating his unique musical voice and guitar style, Hendrix synthesized diverse genres, including blues, R&B, soul, British rock, American folk music, 1950s rock and roll, psychedelic and jazz.</p>
+
+                </div>
+               
+                <div class="dot-dot">
+  <span class="unhide">
+    <i class="fa fa-ellipsis-h"></i>
+  </span>
+</div>
+            </div>
+        </div>
+
+
+
+
+      
+      <div class="modal fade" id="deletePostModal" aria-labelledby="deletePostModalLabel">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              Are you sure you want to delete this post?
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger">Yes</button>
+              <button class="btn btn-success" data-dismiss="modal">No</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+</div>
+
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	
+	<script src="..\js\header.js"></script>
+	
+  <script src="..\js\bloglist.js"></script>
+
+</html>
